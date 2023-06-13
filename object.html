@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <head><title> array </title></head>
+            <body>
+               <h3> ARRAY </h3>
+               <h3> array length </h3>
+               <p id="length"></p>
+               <h3> array tostring </h3>
+               <p id="tostring"></p>
+               <h3> array pop </h3>
+               <p id="pop"></p>
+               <h3> array push </h3>
+               <p  id="pushs"></p>
+               <h3> array shift </h3>
+               <p id="shift"></p>
+               </body>
+              <script>
+                const fruits = ["Banana", "Orange", "Apple", "Mango"];
+                let size = fruits.length;
+                document.getElementById("length").innerHTML = size;
+                const fruits1 = [2, "banana", "pinapple", "Mango"];
+                
+                document.getElementById("tostring").innerHTML = fruits1.toString();
+                const animal = ["cat", "dog", "duck", "elephant"];
+
+                document.getElementById("pop").innerHTML = animal.pop();
+                const nm = ["onion", "carrot", "tomato", "potato"];
+              
+                document.getElementById("pushs").innerHTML =vegetables;
+                const fruits2 = ["orange", "pinapple", "Apple", "Mango"];
+                
+                document.getElementById("shift").innerHTML = fruits2.shift();
+
+                </script>
+                <body>
+                    <h1> object </h1>
+                    <p id="demo"></p>
+                    <script>
+                    const person = {
+                      firstName: "ravi",
+                      lastName: "vi",
+                      id: 4686,
+                      fullName: function() {
+                        return this.firstName + " " + this.lastName;
+                      }
+                    };
+                    document.getElementById("demo").innerHTML = person.fullName;
+                   </script>
+                  </body>
+                </html>

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+            div {
+                width:100px;
+                height:100px;
+                background-color:blue;
+                animation-name:bg;
+                animation-duration:2s;
+                animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+                animation-delay:2s;
+                position:relative;
+             }
+            @keyframes bg {
+                0% { background-color:red;left:0px;top:0px;}
+                25% { background-color:yellow;left:200px;top:0px;}
+                50% { background-color:blue;left:200px;top:0px;}
+                75% { background-color:orange;left:200px;top:200px;}
+                100% { background-color:green;left:0px;top:0px;}
+        }
+                </style>
+                <body>
+                    <div></div>
+                    </body>
+                    </head>
+                    </html>

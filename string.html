@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>string</title>
+
+<body>
+    <h3> STRING </h3>
+    <h3> str length </h3>
+    <p id="str1"></p>
+    <h3> string slice </h3>
+    <p id="slice"></p>
+    <h3> string charat </h3>
+    <p id="charat"></p>
+    <h3> string substring </h3>
+    <p id="substring"></p>
+    <h3> string trim </h3>
+    <p id="trim"></p>
+
+
+
+    <h3> array length </h3>
+    <p id="length"></p>
+    <h3> array tostring </h3>
+    <p id="tostring"></p>
+    <h3> array pop </h3>
+    <p id="pop"></p>
+    <h3> array push </h3>
+    <p id="push"></p>
+    <h3> array shift </h3>
+    <p id="shift"></p>
+    <script>
+        let text1 = "rabbit,cat,dog";
+        document.getElementById("str1").innerHTML = text1.length; "<br>"
+        let text2 = "apple,banana,orange";
+        document.getElementById("slice").innerHTML = text2.slice(0,10); "<br>"
+        let text3 = "good morning";
+        document.getElementById("charat").innerHTML = text3.charAt(3); "<br>"
+        let text4 = "pineapple,orange,apple";
+        document.getElementById("substring").innerHTML = text4.substring(2,5); "<br>"
+        let text5 = "good evening      jujjuuuk";
+        document.getElementById("trim").innerHTML = text5.trim(); "<br>"
+        let text7 = "onion,carrot";
+
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        let size = fruits.length;
+        document.getElementById("length").innerHTML = size;
+        const fruits1 = [2, "banana", "pinapple", "Mango"];
+
+        document.getElementById("tostring").innerHTML = fruits1.toString();
+
+        const animal = ["cat", "dog", "duck", "elephant"];
+        document.getElementById("pop").innerHTML = animal.pop();
+
+        const vegetables = ["onion", "carrot", "tomato", "potato"];
+          vegetables.push("jklnjkn");
+        document.getElementById("push").innerHTML = vegetables;
+
+        const fruits2 = ["orange", "pinapple", "Apple", "Mango"];
+        document.getElementById("shift").innerHTML = fruits2.shift();
+
+    </script>
+</body>
+
+</html>

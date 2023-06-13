@@ -1,0 +1,25 @@
+<html>
+    <head>
+    <form>
+        <label>enter your name</label>
+        <input type="name" ><br>
+        <label>enter your email</label>
+        <input type="email" ><br>
+        <label>enter your phone no </label>
+        <input type="number" ><br>
+        <label> enter your date.of.birth </label>
+        <input type="date"><br>
+        <label>enter your time </label>
+        <input type="time"><br>
+        </form>
+    <select>
+        <option>--select state--</option>
+        <option> tamil nadu </option>
+        <option> kerala </option>
+        <option> bangalore </option>
+    </select><br><br>
+    <text area></text area><br>
+        <button type="submit">submit</button>
+        <button type="login">login</button>
+    </form>
+    <!--start table-->
